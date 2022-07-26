@@ -42,3 +42,9 @@ They allow developers to alert team-members to new work that needs to be reviewe
 
 > I have this new stuff I want to merge in to the master branch... what do you think about it?
 
+## The Workflow
+
+1. Do some work locally on a feature branch
+2. Push up the feature branch to Github
+3. Open a pull request (or **PR**) using the feature branch just pushed up to Github
+4. Wait for the **PR** to be approved and merged. Start a discussion on the **PR**. This part depends on the team structure.
