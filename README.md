@@ -8,7 +8,7 @@ While it's nice and easy to onlt work on the master branch, this leads to some s
 
 * Lots of time spent resolving conflicts and merging code, especially as team size scales up
 
-* No none can work on anything without disturbing the main codebase. How do you try adding something radically different in? How do you experiment?
+* No one can work on anything without disturbing the main codebase. How do you try adding something radically different in? How do you experiment?
 
 * The only way to collaborate on a feature together with another teammate is to push incomplete code to master/main. Other teammates now have broken code...
 
@@ -22,3 +22,14 @@ Rather than working directly on master/main, all new development should be done 
 
 * Master/main branch won't contain broken code, or at least, it won't unless someone messes up.
 
+## Merging in Feature branches
+
+At some point the new work on feature branches will need to be merged in to the master branch.
+
+There are a couple of options for how to do this:
+
+1. Merge _at will_ without any sort of discussion with teammates. Just _do it whenever you want_ .
+
+2. Send an email or chat message or something to your team to discuss if the changes should be merged in.
+
+3. **Pull Request!**
