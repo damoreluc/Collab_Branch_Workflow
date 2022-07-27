@@ -54,3 +54,24 @@ They allow developers to alert team-members to new work that needs to be reviewe
 Just like any other merge, **sometimes there are conflicts** that need to be solved when merging a pull request. This is fine. Don't panic.
 
 You can perform the merge and fix the conflicts on the command line like normal, or you can use Github's interactive editor.
+
+### on my Boss's local machine
+
+My boss can merge the branch and solve the conflicts locally...
+
+1. switch to the branch in question. Merge into it the main branch and resolve conflicts:
+
+    ```
+    > git fetch origin
+    > git switch my-new-feature
+    > git merge main
+    > fix manually conflicts!
+    ```
+
+2. switch to main. Merge into it the feature branch (now with **no** conflicts) and push changes up to Github:
+
+    ```
+    > git switch master
+    > git merge --no-ff my-new-feature
+    > git push origin master
+    ```
