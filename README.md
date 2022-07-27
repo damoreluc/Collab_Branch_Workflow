@@ -55,23 +55,25 @@ Just like any other merge, **sometimes there are conflicts** that need to be sol
 
 You can perform the merge and fix the conflicts on the command line like normal, or you can use Github's interactive editor.
 
-### on my Boss's local machine
+### On my Boss's local machine
 
 My boss can merge the branch and solve the conflicts locally...
 
-1. switch to the branch in question. Merge into it the main branch and resolve conflicts:
+1. switch to the branch in question, say for example `my-new-feature`. Merge into it the `main` branch and resolve conflicts:
 
     ```
+    > git pull origin main
     > git fetch origin
     > git switch my-new-feature
     > git merge main
     > fix manually conflicts!
+    > commit all changes
     ```
 
-2. switch to main. Merge into it the feature branch (now with **no** conflicts) and push changes up to Github:
+2. switch to `main`. Merge into it the `my-new-feature` branch (now with **no** conflicts) and push changes up to Github:
 
     ```
-    > git switch master
+    > git switch main
     > git merge --no-ff my-new-feature
-    > git push origin master
+    > git push origin main
     ```
