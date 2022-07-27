@@ -48,3 +48,9 @@ They allow developers to alert team-members to new work that needs to be reviewe
 2. Push up the feature branch to Github
 3. Open a pull request (or **PR**) using the feature branch just pushed up to Github
 4. Wait for the **PR** to be approved and merged. Start a discussion on the **PR**. This part depends on the team structure.
+
+## Merging PR with conflicts
+
+Just like any other merge, **sometimes there are conflicts** that need to be solved when merging a pull request. This is fine. Don't panic.
+
+You can perform the merge and fix the conflicts on the command line like normal, or you can use Github's interactive editor.
