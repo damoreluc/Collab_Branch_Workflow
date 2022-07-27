@@ -77,3 +77,4 @@ My boss can merge the branch and solve the conflicts locally...
     > git merge --no-ff my-new-feature
     > git push origin main
     ```
+---
